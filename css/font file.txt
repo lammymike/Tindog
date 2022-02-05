@@ -1,0 +1,16 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+<link href="https://fonts.googleapis.com/css?family=Montserrat:black|Ubuntu" rel="stylesheet">
+<div class="card">
+  <div class="card-header">
+    Featured
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>

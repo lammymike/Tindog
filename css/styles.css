@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+body{
+    font-family:  'Montserrat', sans-serif;
+    
+}
+
+#title{
+    background-color:#ff4c68;
+  
+}
+h1{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size:3.5rem;
+    line-height:1.5;
+    color: #fff;
+
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+    
+}
+ /* download button */
+ .download-button{
+     margin: 5% 3% 5% 0;
+ }
+
+/* navigation bar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+ /* title image */
+ .title-image{
+     width:25%;
+    transform: rotate(25deg);
+    right: 30%;
+    position:absolute;
+ }
+ /* feature section */
+ #features{
+     padding:7% 15%;
+     background-color: #fff;
+     position:relative;
+     z-index: 1;
+     
+ }
+ .feature-box{
+     text-align: center;
+     padding: 5%;
+ }
+ h3{
+    font-family: 'Montserrat-Black', sans-serif;
+    text-decoration: solid;
+    font-weight: 900;
+}
+p{
+    color:#8f8f8f;
+}
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#ff4c68;
+    
+
+}
+
+/* Testimonial section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff;
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+#press{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+ .press-logo{
+    width:15%;
+    margin: 20px 20px 50px;
+} 
+.carousel-item{
+    padding: 7% 15%; 
+
+}
+/* pricing section */
+#pricing{
+    text-align: center;
+    padding: 100px;
+
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+ /* media query */
+ @media (max-width:1034px){
+    .title-image{
+        position:static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+
+ }
+ /* cta */
+ #cta{
+     background-color:#ff4c68 ;
+     color:#fff;
+     padding: 7% 15%;
+     text-align: center;
+
+ }
+ .cta-heading{
+     font-family: 'Montserrat-Black', sans-serif;
+     font-size: 3rem;
+     line-height: 1.5;
+ }
+ /* footer */
+
+ #footer{
+     text-align: center;
+     padding: 7% 15%;
+
+ }
+.social-icon{
+    margin: 20px 10px;
+}
